@@ -136,7 +136,7 @@
   "Outputs" : {
     "WebsiteURL" : {
       "Value" : { "Fn::Join" : ["", ["http://", { "Fn::GetAtt" : [ "ElasticLoadBalancer", "DNSName" ]}]] },
-      "Description" : "Drupal Website"
+      "Description" : "AWS Cooker Website"
     }
   }
 }
