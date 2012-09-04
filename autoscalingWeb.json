@@ -19,11 +19,11 @@
     },
 
     "WebServerCapacity": {
-      "Default": "2",
+      "Default": "4",
       "Description" : "The initial number of WebServer instances",
       "Type": "Number",
-      "MinValue": "2",
-      "MaxValue": "2",
+      "MinValue": "4",
+      "MaxValue": "4",
       "ConstraintDescription" : "must be between 1 and 5 EC2 instances."
     }
   },
