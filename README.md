@@ -13,7 +13,7 @@ Two main tools manage the changes in configurations. One is puppet and the other
 # This is only at proof of concept stage and shouldn't be used for production.
 
 Some usages:
-
+```
 mypc:AWS_Cooker me$ export AWS_ACCESS_KEY_ID="XXXXXXXXXXXXXX"
 mypc:AWS_Cooker me$ export AWS_SECRET_ACCESS_KEY="XXXXXXXXXXXXX"
 mypc:AWS_Cooker me$ ./manage_stack.py --create autoscalingWeb-Test
@@ -66,3 +66,4 @@ mypc:AWS_Cooker me$ ./manage_stack.py --delete autoscalingWeb-Test
 {u'DeleteStackResponse': {u'ResponseMetadata': {u'RequestId': u'7e0ab158-f697-11e1-b774-094b9d1bd52c'}}}
 2012-09-04 14:50:40,833 - utils. - INFO - Delete success.
 2012-09-04 14:50:40,834 - utils. - INFO - FINISHED running ./manage_stack.py
+```
